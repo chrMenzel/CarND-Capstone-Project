@@ -27,7 +27,7 @@ class Controller(object):
         
         self.vel_lpf = LowPassFilter(tau, ts)
         
-        self.vehicle_mas = vehicle_mass
+        self.vehicle_mass = vehicle_mass
         self.fuel_capacity = fuel_capacity
         self.brake_deadband = brake_deadband
         self.decel_limit = decel_limit
